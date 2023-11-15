@@ -14,8 +14,23 @@ header > h1 {
     margin-top: 20px;
 }
 
-main {
+.clearfix:after {
+    content: none;
+    display: table;
+    clear: both;
+} 
+
+main > section {
     border: 1px solid black;
-    margin: 0 auto;
-    width: 80%;
+    margin:  30px auto 0 auto;
+    width: 90%;
+    text-align: center;
 }
+.Float {
+    float: left;
+    width: calc(100% / 3 );
+    background-color: #0F0E17;
+    padding: 20px;
+    margin-left: 5px;
+
+} 
