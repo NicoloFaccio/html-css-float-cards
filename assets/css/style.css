@@ -14,11 +14,14 @@ header > h1 {
     margin-top: 20px;
 }
 
-/*.clearfix:after {
-    content: none;
+.box{
+    border: 3px solid blue;
+}
+.clearfix::after {
+    content: "";
     display: table;
     clear: both;
-}*/
+}
 
 main > section {
     margin:  30px auto 0 auto;
@@ -32,7 +35,6 @@ main > section {
     color: white;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-right: 50px;
-
 }
 
 .photos {
