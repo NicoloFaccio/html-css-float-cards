@@ -35,6 +35,7 @@ main > section {
     color: white;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-right: 50px;
+    margin-right: 94px;
 }
 
 .photos {
@@ -58,4 +59,13 @@ main > section {
 
 .mail {
     color: #3DBDFC;
+}
+
+.Float-3 {
+    float: left;
+    background-color: #0F0E17;
+    color: white;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 50px;
+    margin-right: 0px;
 }
