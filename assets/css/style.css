@@ -14,23 +14,31 @@ header > h1 {
     margin-top: 20px;
 }
 
-.clearfix:after {
+/*.clearfix:after {
     content: none;
     display: table;
     clear: both;
-} 
+}*/
 
 main > section {
     border: 1px solid black;
     margin:  30px auto 0 auto;
-    width: 90%;
+    width: 80%;
     text-align: center;
 }
+
 .Float {
     float: left;
-    width: calc(100% / 3 );
     background-color: #0F0E17;
-    padding: 20px;
-    margin-left: 5px;
+    color: white;
 
-} 
+}
+
+.photos {
+    width: 100px;
+    height: 100px;
+}
+
+.text {
+    display: inline-block;
+}
