@@ -31,6 +31,7 @@ main > section {
     background-color: #0F0E17;
     color: white;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 50px;
 
 }
 
@@ -41,6 +42,16 @@ main > section {
 
 .text {
     display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.name {
+    padding-bottom: 5px;
+}
+
+.profession {
+    padding-bottom: 10px;
 }
 
 .mail {
