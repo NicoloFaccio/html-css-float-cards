@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+header > h1 {
+    text-align: center;
+    color: #E52F6F;
+    margin-top: 20px;
+}
+
+main {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 80%;
+}
